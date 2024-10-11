@@ -45,8 +45,8 @@ function Projects() {
               isBlog={false}
               title="My PortFolio"
               description="Portfolio web application with my details and work."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/aryabhupathi/portfolio"
+              demoLink="https://aryainnovates.netlify.app"              
             />
           </Col>
 

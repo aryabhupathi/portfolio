@@ -7,7 +7,7 @@ const PARTICLE_OPTIONS = {
       value: 500,
       density: {
         enable: true,
-        value_area: 1500,
+        value_area: 1000,
       },
     },
     shape: {
@@ -41,13 +41,13 @@ const PARTICLE_OPTIONS = {
       value: 0.4, // Set a base opacity for particles to make them less visible
       anim: {
         enable: true,
-        speed: 1,
+        speed: 0.3,
         opacity_min: 0.4, // Minimum opacity to add subtle animation
       },
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 1,
       direction: "none",
       random: true,
       straight: false,

@@ -24,8 +24,8 @@ function Projects() {
               isBlog={false}
               title="My Movie"
               description="Movie finder is a web application that allows users to search for movies and view their details from a trusted database."
-              ghLink="https://github.com/aryabhupathi/MyMovie"
-              demoLink="https://havetime.netlify.app"
+              ghLink="https://github.com/aryabhupathi/moviebox"
+              demoLink="https://havetimes.netlify.app"
             />
           </Col>
 

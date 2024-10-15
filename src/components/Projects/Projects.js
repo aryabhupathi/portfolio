@@ -25,7 +25,7 @@ function Projects() {
               title="My Movie"
               description="Movie finder is a web application that allows users to search for movies and view their details from a trusted database."
               ghLink="https://github.com/aryabhupathi/moviebox"
-              demoLink="https://havetimes.netlify.app"
+              demoLink="https://havetime.netlify.app"
             />
           </Col>
 
@@ -47,6 +47,17 @@ function Projects() {
               description="Portfolio web application with my details and work."
               ghLink="https://github.com/aryabhupathi/portfolio"
               demoLink="/"              
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Reservations"
+              description="online ticket reservation system forall modes of travel."
+              ghLink="https://github.com/aryabhupathi/ticket"
+              demoLink="https://roadrailair.netlify.app"              
             />
           </Col>
 

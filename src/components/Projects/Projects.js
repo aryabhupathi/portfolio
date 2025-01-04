@@ -28,17 +28,7 @@ function Projects() {
               demoLink="https://havetime.netlify.app"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="My Festival"
-              description="A clone of bookmyshow web application with self decided features and functions."
-              ghLink="https://github.com/aryabhupathi/lost"
-            />
-          </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -55,9 +45,19 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Reservations"
-              description="online ticket reservation system forall modes of travel."
+              description="Online ticket reservation system for all modes of travel."
               ghLink="https://github.com/aryabhupathi/ticket"
               demoLink="https://roadrailair.netlify.app"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="My Festival"
+              description="A clone of bookmyshow web application with self decided features and functions."
+              ghLink="https://github.com/aryabhupathi/lost"
             />
           </Col>
 
